@@ -1,0 +1,9 @@
+.card-grid {
+  margin-top: 5px;
+  display: grid;
+  height: fit-content;
+  width: fit-content;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}

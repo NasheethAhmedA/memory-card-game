@@ -1,0 +1,22 @@
+.card {
+  background-color: #B74772;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 95%;
+  height: 95%;
+  padding: 0%;
+}
+
+.card img.front {
+  display: none;
+}
