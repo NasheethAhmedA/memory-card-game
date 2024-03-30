@@ -1,14 +1,14 @@
 .card {
-  background-color: #B74772;
+  background-color: #0C3B33;
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 5px;
   margin: 5px;
-  cursor: pointer;
+
 }
 
 .card img {
@@ -18,5 +18,13 @@
 }
 
 .card img.front {
-  display: none;
+  transition: ease-out 0.5s;
+}
+
+.front {
+  transform: rotateY(360deg); 
+}
+
+.back {
+  cursor: pointer;
 }

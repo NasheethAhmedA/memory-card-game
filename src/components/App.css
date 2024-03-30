@@ -1,23 +1,48 @@
 .App {
-    max-width: 860px;
-    margin: 40px auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
 
   }
+
+  .App h1 {
+    text-decoration: underline #0C3B33;
+  }
+
   button {
     background: none;
     border: 2px solid #fff;
     padding: 6px 12px;
     border-radius: 4px;
     color: #fff;
+    font-family: Recursive;
     font-weight: bold;
     cursor: pointer;
     font-size: 1em;
   }
   button:hover {
-    background: #B74772;
+    background: #0C3B33;
     color: #fff;
   }
+
+ 
+.middle {
+  width: 100%;  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.win {
+display: flex;
+position: absolute  ;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: #000000f0;
+width: 100%;
+height: 100%;
+}
